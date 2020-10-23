@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.filter{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 1;
+    opacity: .7;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+   
+}
+   td , th{
+    padding: 15px 20px;
+    text-align: center;
+}
+th{
+    background-color: #22c1c3;
+    color: #fafafa;
+    font-family: 'Open Sans',Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+   
+}
+tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+   tr:nth-child(even){
+    background-color: #eeeeee;
+}
+.reqform{
+    width: 800px;
+    background-color:transparent;
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+.mane{
+    background-color: transparent;
+    width: 800px;
+    margin: auto;
+}
+form{
+    padding: 10px;
+}
+#name{
+    width: 100%;
+    height: 100px;
+}
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.namadpn{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.namabelakang{
+    position: relative;
+    left: 400px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #555;
+}
+.labelpertama{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top: -45px;
+}
+.labelkedua{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 140px;
+    top: -45px;
+}
+.alamat{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #555;
+}
+.nim{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #555;
+}
+.email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #555;
+}
+.code{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #555;
+}
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 240px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #555;
+}
+.area_code{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 39px;
+    top: -4px;
+}
+.phone-number{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -106px;
+    top: -4px;
+}
+.options{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 545px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+.options option{
+    font-size: 20px;
+}
+#jns_klamin{
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.button{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 70px 250px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+.button:hover{
+    background-color: #5390f5;
+}

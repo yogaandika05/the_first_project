@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="reqform"><h1>Form Pendaftaran</h1></div>
+    <div class="mane">
+        <form action="#">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input type="text" class="namadpn" name="nama_depan"><br>
+                <label class="labelpertama">Nama Depan</label>
+                <input type="text" class="namabelakang" name="nama_belakang" >
+                <label class="labelkedua">Nama Belakang</label>
+            </div>
+            <h2 class="name">NIM</h2>
+            <input type="text" class="nim" name="nim">
+
+            <h2 class="name">Alamat</h2>
+            <input type="text" class="alamat" name="alamat">
+
+            <h2 class="name">Email</h2>
+            <input type="email" class="email" name="email">
+
+            <h2 class="name">Telphon</h2>
+            <input type="text" class="code" name="area_code">
+            <label class="area_code">Kode Area</label>
+            <input type="number" class="number" name="tlpn">
+            <label class="phone-number">Nomer Telphon</label>
+
+            <h2 class="name"> Bahasa Pemograman</h2>
+            <select class="options" name="Subject">
+            <option disabled="disabled" selected="selected">--Choose Option--</option>
+            <option>PHP</option>
+            <option>JAVA</option>
+            <option>RUBY</option>
+            <option>PYTHON</option>
+        </select>
+        <h2 id="jns_klamin"> Jenis Klamin</h2>
+
+        <label class="radio">
+            <input type="radio" class="radio-one" checked="checked" name="">
+            <span class="checkmark"></span>
+            Laki-laki
+            <input type="radio" class="radio-two" name="">
+            <span class="checkmark"></span>
+            Wanita
+        </label>
+        <input type="submit" value="Simpan" class="button">
+        </form>
+    </div>
+</body>
+</html>
